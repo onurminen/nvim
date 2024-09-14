@@ -28,6 +28,8 @@ require('lazy').setup({
 
   require 'plugins/darcula',
 
+  require 'plugins/tokyonight',
+
   require 'plugins/neo-tree',
 
   require 'plugins/telescope',
@@ -35,6 +37,10 @@ require('lazy').setup({
   require 'plugins/lspconfig',
 
   require 'plugins/cmp',
+
+  require 'plugins/indent_line',
+
+  require 'plugins/lualine',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
