@@ -53,30 +53,7 @@ vim.api.nvim_create_autocmd('TextYankPost', {
 -- t – terminal
 -- c – command-line
 
--- CTRL + a to select all text
-vim.keymap.set('n', '<C-a>', 'gg0vG$')
--- CTRL + c to copy selected text
-vim.keymap.set('v', '<C-c>', 'y')
--- CTRL + v to paste in insert mode
---vim.keymap.set('i', '<C-v>', 'p')
 
--- my maps
--- CTRL + a to select all text
-vim.keymap.set('n', '<C-a>', 'gg0vG$')
--- CTRL + c to copy selected text
-vim.keymap.set('v', '<C-c>', 'y')
--- CTRL + v to paste in insert mode
---vim.keymap.set('i', '<C-v>', 'p')
---
---
--- my maps
--- CTRL + a to select all text
-vim.keymap.set('n', '<C-a>', 'gg0vG$')
--- CTRL + c to copy selected text
-vim.keymap.set('v', '<C-c>', 'y')
--- CTRL + v to paste in insert mode
---vim.keymap.set('i', '<C-v>', 'p')
---
 ---- my maps
 -- CTRL + a to select all text
 vim.keymap.set('n', '<C-a>', 'gg0vG$')
@@ -86,4 +63,3 @@ vim.keymap.set('n', '<C-a>', 'gg0vG$')
 
 -- CTR + s and leader + w  to save file
 vim.keymap.set({ "i", "x", "n", "s" }, "<C-s>", "<cmd>w<cr><esc>", { desc = "Save file" })
-
